@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vegas Motors - Contact</title>
     <style>
-        body {
+         body {
       font-family: monospace;
       margin: 0;
       padding: 0;
-      background: url('https://c4.wallpaperflare.com/wallpaper/725/4/978/yamaha-yzf-r1-black-wallpaper-preview.jpg') no-repeat center center fixed;
+      background: url('https://t3.ftcdn.net/jpg/02/39/33/46/360_F_239334628_GmztVrYenlaDbGi7hAs9AgRjJGTnxtX4.jpg') no-repeat center center fixed;
       background-size: cover;
       background-color: #f4f4f4;
   }
@@ -64,47 +64,6 @@
   #bike{
       margin-left: 150px;
   }
-
-  
-  #hd1{
-    font-size: 35px;
-  }
-
-  #hd2{
-    font-size: 35px;
-  }
-
-  #hd3{
-    font-size: 35px;
-  }
-
-  #hd4{
-    font-size: 35px;
-  }
-
-  #hd5{
-    font-size: 35px;
-  }
-
-  #pd1{
-    font-size: 20px;
-  }
-
-  #pd2{
-    font-size: 20px;
-  }
-
-  #pd3{
-    font-size: 20px;
-  }
-
-  #pd4{
-    font-size: 20px;
-  }
-
-  #pd5{
-    font-size: 20px;
-  } 
 
   #us{
       font-size:50px;
@@ -165,20 +124,12 @@
       border: none;
       cursor: pointer;
   }
-
-  #he{
-    font-size: 35px;
-  }
-
-  #pr{
-    font-size: 20px;
-  }
-
-  #frm{
-    height: 500px;
-    width: 600px;
-  }
   
+  #contact{
+    height: 400px;
+
+  }
+
   #foo{
       font-size: 18px;
   }
@@ -190,25 +141,40 @@
   .nex :hover{
       color: rgb(236, 236, 236);
   }
-  
-  *{
+
+#cr{
+    font-size:15px ;
+    height: 35px;
+}
+
+#rs{
+    font-size:15px ;
+    height: 35px; 
+}
+
+#he{
+    font-size: 50px;
     color: #f4f4f4;
-  }
+}
 
-  label{
-    font-size: 20px;
-  }
+.fr{
+    height: 20px;
+    color: #050505;
+}
 
-  button{
-    height: 40px;
+#frm{
+    height: 400px;
+    width: 600px;
+}
+
+#pr{
     font-size: 20px;
-  }
+}
 
     </style>
 </head>
 <body>
     <header>
-        
         <nav>
             <h1>Vegas Motors</h1>
             <ul class="nex">
@@ -222,18 +188,15 @@
     </header>
     <section id="contact">
         <center>
-            <h2 id="he">Contact Us</h2>
-            <p id="pr">If you have any questions or need further information, feel free to reach out to us!</p>
+            <h2 id="he">Create Your Vegas Account Here !!!</h2>
             <div id="frm">
-                <form action="#" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea><br>
-                    <button type="submit">Send</button>
-                    <button type="reset">Cancel</button>
+                <form action="#" method="post" class="fr">
+                        <input type="text" name="name" placeholder="Enter name" required="required"><br>
+                        <input type="email" name="email" placeholder="Enter email" required="required"><br>
+                        <input type="number" name="mobile" placeholder="Enter mobile" required="required"><br>
+                        <input type="password" name="password" placeholder="Enter password" required="required"><br>
+                        <button type="submit" id="cr">Create</button>
+                        <button type="reset" id="rs">Cancel</button>
                 </form>
             </div>
         </center>

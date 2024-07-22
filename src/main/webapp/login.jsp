@@ -9,7 +9,7 @@
       font-family: monospace;
       margin: 0;
       padding: 0;
-      background: url('https://c4.wallpaperflare.com/wallpaper/725/4/978/yamaha-yzf-r1-black-wallpaper-preview.jpg') no-repeat center center fixed;
+      background: url('https://img.goodfon.com/wallpaper/big/0/8a/yamaha-yzf-r1-black-bike.jpg') no-repeat center center fixed;
       background-size: cover;
       background-color: #f4f4f4;
   }
@@ -104,7 +104,14 @@
 
   #pd5{
     font-size: 20px;
-  } 
+  }
+
+  
+  #pic1{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dyamaha%2BWr250r&psig=AOvVaw3x-s34jf_MD5XddaULgK5h&ust=1721584893596000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjcpdaZtocDFQAAAAAdAAAAABAE");
+    background-repeat: no-repeat;
+  }
+    
 
   #us{
       font-size:50px;
@@ -165,19 +172,6 @@
       border: none;
       cursor: pointer;
   }
-
-  #he{
-    font-size: 35px;
-  }
-
-  #pr{
-    font-size: 20px;
-  }
-
-  #frm{
-    height: 500px;
-    width: 600px;
-  }
   
   #foo{
       font-size: 18px;
@@ -195,22 +189,49 @@
     color: #f4f4f4;
   }
 
-  label{
-    font-size: 20px;
+  .button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width:400px;
   }
 
-  button{
-    height: 40px;
-    font-size: 20px;
-  }
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    background-color: #1a1b1c;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity:65% ;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn:hover{
+    border: 5px solid rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
 
     </style>
 </head>
 <body>
     <header>
-        
+        <h1 id="to">Vegas Motors</h1>
         <nav>
-            <h1>Vegas Motors</h1>
             <ul class="nex">
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="bikes.jsp">Bikes</a></li>
@@ -220,24 +241,14 @@
             <hr style="border: 2px solid #f4f4f4; width: 1300px;">
         </nav>
     </header>
-    <section id="contact">
-        <center>
-            <h2 id="he">Contact Us</h2>
-            <p id="pr">If you have any questions or need further information, feel free to reach out to us!</p>
-            <div id="frm">
-                <form action="#" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea><br>
-                    <button type="submit">Send</button>
-                    <button type="reset">Cancel</button>
-                </form>
-            </div>
-        </center>
-    </section>
+    <div class="container">
+       <div class="button-container">
+            <a href="cust_signup.html" class="btn">Customer Signup</a>
+            <a href="cust_login.html" class="btn">Customer Login</a>
+            <a href="admin_signup.html" class="btn">Admin Signup</a>
+            <a href="/adminlogin" class="btn">Admin Login</a>            
+        </div>
+    </div>
     <footer>
         <p id="foo">&copy; 2024 Vegas Motors Bike Shop. All rights reserved.</p>
     </footer>

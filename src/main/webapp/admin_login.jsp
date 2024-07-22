@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vegas Motors - Contact</title>
     <style>
-        body {
+         body {
       font-family: monospace;
       margin: 0;
       padding: 0;
-      background: url('https://c4.wallpaperflare.com/wallpaper/725/4/978/yamaha-yzf-r1-black-wallpaper-preview.jpg') no-repeat center center fixed;
+      background: url('https://t3.ftcdn.net/jpg/02/39/33/46/360_F_239334628_GmztVrYenlaDbGi7hAs9AgRjJGTnxtX4.jpg') no-repeat center center fixed;
       background-size: cover;
       background-color: #f4f4f4;
   }
@@ -64,47 +64,6 @@
   #bike{
       margin-left: 150px;
   }
-
-  
-  #hd1{
-    font-size: 35px;
-  }
-
-  #hd2{
-    font-size: 35px;
-  }
-
-  #hd3{
-    font-size: 35px;
-  }
-
-  #hd4{
-    font-size: 35px;
-  }
-
-  #hd5{
-    font-size: 35px;
-  }
-
-  #pd1{
-    font-size: 20px;
-  }
-
-  #pd2{
-    font-size: 20px;
-  }
-
-  #pd3{
-    font-size: 20px;
-  }
-
-  #pd4{
-    font-size: 20px;
-  }
-
-  #pd5{
-    font-size: 20px;
-  } 
 
   #us{
       font-size:50px;
@@ -165,20 +124,12 @@
       border: none;
       cursor: pointer;
   }
-
-  #he{
-    font-size: 35px;
-  }
-
-  #pr{
-    font-size: 20px;
-  }
-
-  #frm{
-    height: 500px;
-    width: 600px;
-  }
   
+  #contact{
+    height: 400px;
+
+  }
+
   #foo{
       font-size: 18px;
   }
@@ -190,27 +141,49 @@
   .nex :hover{
       color: rgb(236, 236, 236);
   }
-  
-  *{
+
+#su{
+    font-size:15px ;
+    height: 35px;
+    background-color: #333;
+}
+
+#contact{
+    height: 550px;
+    padding: 0%;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: rgb(0, 0, 0, 0.5);
+    padding: 20px;
     color: #f4f4f4;
-  }
+    font-size: 18px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: center;
+}
 
-  label{
-    font-size: 20px;
-  }
-
-  button{
+#nn{
     height: 40px;
-    font-size: 20px;
-  }
+    width: 200px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
 
-    </style>
+#hi{
+    font-size: 40px;
+    color: #f4f4f4;
+}
+
+  </style>
 </head>
 <body>
     <header>
-        
+        <h1>Vegas Motors</h1>
         <nav>
-            <h1>Vegas Motors</h1>
             <ul class="nex">
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="bikes.jsp">Bikes</a></li>
@@ -220,26 +193,30 @@
             <hr style="border: 2px solid #f4f4f4; width: 1300px;">
         </nav>
     </header>
-    <section id="contact">
+    <section id="contact">                
         <center>
-            <h2 id="he">Contact Us</h2>
-            <p id="pr">If you have any questions or need further information, feel free to reach out to us!</p>
-            <div id="frm">
-                <form action="#" method="post">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required><br>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea><br>
-                    <button type="submit">Send</button>
-                    <button type="reset">Cancel</button>
-                </form>
-            </div>
-        </center>
-    </section>
-    <footer>
-        <p id="foo">&copy; 2024 Vegas Motors Bike Shop. All rights reserved.</p>
-    </footer>
+    <div class="container">
+    <div class="login-container">
+        <h2>LOGIN HERE  !!</h2>
+        <form action="admin-login" method="post">
+                <center>
+                <div class="input-group">
+                    <label for="email">Email : </label>
+                    <input type="text" id="email" name="email" required><br>
+                </div>
+                <div class="input-group">
+                    <label for="password">Password : </label>
+                    <input type="password" id="password" name="password" required><br>
+                </div>
+                <input type="submit" value="Submit" id="nn">
+            </center>
+            </form>
+    </div>
+</div>
+</center>
+</section>
+<footer>
+<p id="foo">&copy; 2024 Vegas Motors Bike Shop. All rights reserved.</p>
+</footer>
 </body>
 </html>

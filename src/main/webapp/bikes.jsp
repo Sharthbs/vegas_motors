@@ -9,11 +9,13 @@
       font-family: monospace;
       margin: 0;
       padding: 0;
+      background: url('https://st3.depositphotos.com/1105977/15370/i/450/depositphotos_153709400-stock-photo-high-power-motorcycle-chopper-with.jpg') no-repeat center center fixed;
+      background-size: cover;
       background-color: #f4f4f4;
   }
   
   header {
-      background-color: rgb(121, 50, 9);
+      background-color: rgb(0, 0, 0,0.5);
       color: rgb(236, 227, 223);
       padding: 1em 0;
       text-align: center;
@@ -40,16 +42,23 @@
   }
   
   nav ul li a {
-      color: rgb(255, 255, 255);
-      text-decoration: none;
+    color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 0.5em 1em;
+            transition: border 0.3s ease;
   }
   
+  nav ul li a:hover {
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            border-radius: 5px;
+        }
+
   #bikes {
       padding: 2em;
       height: 1600px;
       width: 1484px;
       margin: 0;
-      background-color: rgb(187, 160, 136);
+      background-color:rgb(0,0,0,0.5);
   }
   
   #bike{
@@ -97,10 +106,12 @@
     font-size: 20px;
   }
 
+  
   #pic1{
-    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dyamaha%2BWr250r&psig=AOvVaw3x-s34jf_MD5XddaULgK5h&ust=1721584893596000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjcpdaZtocDFQAAAAAdAAAAABAE);
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dyamaha%2BWr250r&psig=AOvVaw3x-s34jf_MD5XddaULgK5h&ust=1721584893596000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjcpdaZtocDFQAAAAAdAAAAABAE");
     background-repeat: no-repeat;
   }
+    
 
   #us{
       font-size:50px;
@@ -131,7 +142,7 @@
   }
   */
   footer {
-      background-color: #333;
+      background-color: rgb(0, 0, 0,0.5);
       color: #fff;
       text-align: center;
       padding: 1em 0;
@@ -171,9 +182,12 @@
   }
   
   .nex :hover{
-      color: rgb(7, 7, 7);
+      color: rgb(236, 236, 236);
   }
   
+  *{
+    color: #f4f4f4;
+  }
       </style>
 </head>
 <body>
@@ -184,13 +198,15 @@
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="bikes.jsp">Bikes</a></li>
                 <li><a href="contact.jsp">Contact</a></li>
+                <li><a href="login.jsp">Login</a></li>
             </ul>
+            <hr style="border: 2px solid #f4f4f4; width:1300px ;">
         </nav>
     </header>
     <section id="bikes">
         <table id="bike">
             <tr id="bike1">
-                <td id="pic1" style="height: 300px; width: 300px;"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dyamaha%2BWr250r&psig=AOvVaw3x-s34jf_MD5XddaULgK5h&ust=1721584893596000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjcpdaZtocDFQAAAAAdAAAAABAE" alt=""></td>
+                <td id="pic1" style="height: 300px; width: 300px;"><img src="" alt=""></td>
                 <td style=" height: 300px; width: 50px;"></td>
                 <td id="dis1" style="height: 300px; width: 700px;"><h1 id="hd1">Yamaha WR250R</h1><p id="pd1">The Yamaha WR450F is a versatile off-road bike known for its powerful engine and excellent handling.</p></td>
             </tr>
