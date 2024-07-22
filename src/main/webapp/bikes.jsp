@@ -106,13 +106,6 @@
     font-size: 20px;
   }
 
-  
-  #pic1{
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Fsearch%3Fq%3Dyamaha%2BWr250r&psig=AOvVaw3x-s34jf_MD5XddaULgK5h&ust=1721584893596000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIjcpdaZtocDFQAAAAAdAAAAABAE");
-    background-repeat: no-repeat;
-  }
-    
-
   #us{
       font-size:50px;
   }
