@@ -206,27 +206,27 @@
     <section id="bikes">
         <table id="bike">
             <tr id="bike1">
-                <td id="pic1" style="height: 300px; width: 300px;"><img src="" alt=""></td>
+                <td id="pic1" style="height: 300px; width: 300px;"><img height="150px" width="250px" src="https://logos-world.net/wp-content/uploads/2020/11/Yamaha-Motor-Company-Emblem-700x394.png" alt=""></td>
                 <td style=" height: 300px; width: 50px;"></td>
                 <td id="dis1" style="height: 300px; width: 700px;"><h1 id="hd1">Yamaha WR250R</h1><p id="pd1">The Yamaha WR450F is a versatile off-road bike known for its powerful engine and excellent handling.</p></td>
             </tr>
             <tr id="bike2">
-                <td id="pic2" style="height: 300px; width: 300px;"></td>
+                <td id="pic2" style="height: 300px; width: 300px;"><img height="150px" width="250px" src="https://logos-world.net/wp-content/uploads/2021/03/Honda-Logo-1981-2000-700x394.png" alt=""></td>
                 <td style=" height: 300px; width: 50px;"></td>
                 <td id="dis2" style="height: 300px; width: 700px;"><h1 id="hd2">Honda CRF450L</h1><p id="pd2">The Honda CRF450L is a street-legal dirt bike that combines performance and reliability for both off-road and on-road adventures.</p></td>
             </tr>
             <tr id="bike3">
-                <td id="pic3" style="height: 300px; width: 300px;"></td>
+                <td id="pic3" style="height: 300px; width: 300px;"><img height="150px" width="250px" src="https://logos-world.net/wp-content/uploads/2020/11/KTM-Logo.png" alt=""></td>
                 <td style=" height: 300px; width: 50px;"></td>
                 <td id="dis3" style="height: 300px; width: 700px;"><h1 id="hd3">KTM 500 EXC-F</h1><p id="pd3">The KTM 500 EXC-F is a high-performance enduro bike with a lightweight frame and a powerful engine.</p></td>
             </tr>
             <tr id="bike4">
-                <td id="pic4" style="height: 300px; width: 300px;"></td>
+                <td id="pic4" style="height: 300px; width: 300px;"><img height="150px" width="250px" src="https://logos-world.net/wp-content/uploads/2021/10/Suzuki-Logo-700x394.png" alt=""></td>
                 <td style=" height: 300px; width: 50px;"></td>
                 <td id="dis4" style="height: 300px; width: 700px;"><h1 id="hd4">Suzuki DR-Z400S</h1><p id="pd4">The Suzuki DR-Z400S is a dual-sport bike that offers a balance of power, comfort, and off-road capability.</p></td>
             </tr>
             <tr id="bike5">
-                <td id="pic5" style="height: 300px; width: 300px;"></td>
+                <td id="pic5" style="height: 300px; width: 300px;"><img height="150px" width="250px" src="https://logos-world.net/wp-content/uploads/2023/03/Husqvarna-Logo-500x281.jpg" alt=""></td>
                 <td style=" height: 300px; width: 50px;"></td>
                 <td id="dis5" style="height: 300px; width: 700px;"><h1 id="hd5">Husqvarna FE 501</h1><p id="pd5">The Husqvarna FE 501 is a premium off-road bike with advanced technology and top-notch performance.</p></td>
             </tr>
