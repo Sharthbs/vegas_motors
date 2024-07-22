@@ -243,10 +243,10 @@
     </header>
     <div class="container">
        <div class="button-container">
-            <a href="cust_signup.html" class="btn">Customer Signup</a>
-            <a href="cust_login.html" class="btn">Customer Login</a>
-            <a href="admin_signup.html" class="btn">Admin Signup</a>
-            <a href="/adminlogin" class="btn">Admin Login</a>            
+            <a href="cust_signup.jsp" class="btn">Customer Signup</a>
+            <a href="cust_login.jsp" class="btn">Customer Login</a>
+            <a href="admin_signup.jsp" class="btn">Admin Signup</a>
+            <a href="admin_login.jsp" class="btn">Admin Login</a>            
         </div>
     </div>
     <footer>
