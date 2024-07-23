@@ -9,7 +9,7 @@
       font-family: monospace;
       margin: 0;
       padding: 0;
-      background: url('https://t3.ftcdn.net/jpg/02/39/33/46/360_F_239334628_GmztVrYenlaDbGi7hAs9AgRjJGTnxtX4.jpg') no-repeat center center fixed;
+      background: url('https://wallpaperdelight.com/wp-content/uploads/2023/12/Wallpaper-showcasing-riders-embarking-on-an-exhilarating-dirt-bike-expedition-under-the-cover-of-darkness-guided-solely-by-their-headlights-2048x1148.jpg') no-repeat center center fixed;
       background-size: cover;
       background-color: #f4f4f4;
   }
